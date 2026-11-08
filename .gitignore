@@ -1,0 +1,13 @@
+# Dependencies are installed inside the Docker image, never committed
+node_modules/
+
+# Local secrets / overrides
+.env
+
+# Local Redis dumps if you ever run redis-server outside Docker
+dump.rdb
+appendonlydir/
+
+# OS / editor noise
+.DS_Store
+.vscode/
